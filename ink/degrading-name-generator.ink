@@ -2,9 +2,9 @@
 
 <center>Today your name is:</center> #CLEAR
 
-<center><h1>
+<center><h3>
 -> name ->
-</h1></center>
+</h3></center>
 + [Again]
     -> again
 
@@ -244,6 +244,21 @@
 <> {~cum|jizz} {~drinker|breath|dumpster|guzzler|receptacle|face|junkie|muffin|rag|bucket|slut|whore|jar}
 ->->
 
+= body_part
+{shuffle: 
+    - <> ass
+    - <> ball
+    - <> butt
+    - <> cock
+    - <> cunt
+    - <> dick
+    - <> penis
+    - <> fart
+    - <> pussy
+    - <> testicle
+}
+->->
+
 = body_part_action_noun
 -> body_part ->
 {shuffle:
@@ -273,18 +288,18 @@
 }
 ->->
 
-= body_part
+= liquid
 {shuffle: 
-    - <> ass
-    - <> ball
-    - <> butt
-    - <> cock
-    - <> cunt
-    - <> dick
-    - <> penis
-    - <> fart
-    - <> pussy
-    - <> testicle
+    - <> cunt cream
+    - <> cum
+    - <> jizz
+    - <> pee
+    - <> piss
+    - <> pussy juice
+    - <> spit
+    - <> spunk
+    - <> squirt
+    - <> urine
 }
 ->->
 
@@ -322,20 +337,5 @@
     - <>-loving
     - <>-slupring
     - <>-sucking
-}
-->->
-
-= liquid
-{shuffle: 
-    - <> cunt cream
-    - <> cum
-    - <> jizz
-    - <> pee
-    - <> piss
-    - <> pussy juice
-    - <> spit
-    - <> spunk
-    - <> squirt
-    - <> urine
 }
 ->->
