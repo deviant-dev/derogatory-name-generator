@@ -48,10 +48,10 @@
     - <> unwanted
     - <> useless
     - <> worthless
-    - <> -> racist_adjectives ->
-    - <> -> racist_adjectives ->
-    - <> -> racist_adjectives ->
-    - <> -> racist_adjectives ->
+    - <> -> racist_adjective ->
+    - <> -> racist_adjective ->
+    - <> -> racist_adjective ->
+    - <> -> racist_adjective ->
 }
 ->->
 
@@ -101,7 +101,7 @@
     - <> cocksleeve
     - <> cock whore
     - <> {~cock|dick|penis} {~rider|receiver|receptacle}
-    - <> cock socket
+    - <> cock {~fiend|socket}
     - <> cow
     - <> coward
     - <> crone
@@ -116,7 +116,6 @@
     - <> dog
     - <> dumbass
     - <> dummy
-    - <> fiend
     - <> fleshlight
     - <> footstool
     - <> freak
@@ -185,6 +184,28 @@
 }
 ->->
 
+= racist_adjective
+{shuffle:
+    - <> black
+    - <> brillo-headed
+    - <> broke-ass
+    - <> burnt
+    - <> chicken-licking
+    - <> chocolate
+    - <> colored
+    - <> cripsy
+    - <> jive-ass
+    - <> licorice
+    - <> light-skinned
+    - <> nappy
+    - <> over-cooked
+    - <> shit-stained
+    - <> sooty
+    - <> thick-lipped
+    - <> uppity
+}
+->->
+
 = racist_noun
 {shuffle:
     - <> 8-ball
@@ -222,26 +243,12 @@
 }
 ->->
 
-= racist_adjectives
-{shuffle:
-    - <> black
-    - <> brillo-headed
-    - <> chocolate
-    - <> colored
-    - <> jive-ass
-    - <> over-cooked
-    - <> sooty
-    - <> thick-lipped
-    - <> uppity
-}
-->->
-
 = fuck_noun
 <> fuck{~bunny|face|head|hole|meat|muffin|pole|stick|toy}
 ->->
 
 = cum_noun
-<> {~cum|jizz} {~drinker|breath|dumpster|guzzler|receptacle|face|junkie|muffin|rag|bucket|slut|whore|jar}
+<> {~cum|jizz} {~breath|bucket|drinker|dumpster|face|guzzler|jar|junkie|muffin|rag|receptacle|slut|whore}
 ->->
 
 = body_part
@@ -252,8 +259,8 @@
     - <> cock
     - <> cunt
     - <> dick
-    - <> penis
     - <> fart
+    - <> penis
     - <> pussy
     - <> testicle
 }
