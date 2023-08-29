@@ -44,6 +44,7 @@
     - <> fatass
     - <> fertile
     - <> flabby
+    - <> foxy
     - <> fucked up
     - <> juicy
     - <> gross
@@ -280,6 +281,7 @@
     - <> jive-ass
     - <> licorice
     - <> light-skinned
+    - <> {~mulatto|'latto}
     - <> nappy
     - <> over-cooked
     - <> shit-stained
@@ -311,8 +313,6 @@
     - <> jiggabo
     - <> jungle bunny
     - <> monkey
-    - <> mulatto
-    - <> 'latto
     - <> negroid
     - <> nigger
     - <> niglet
