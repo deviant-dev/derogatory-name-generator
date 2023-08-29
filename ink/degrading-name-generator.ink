@@ -385,7 +385,7 @@
 
 = liquid
 {shuffle: 
-    - <> cunt cream
+    - <> cream
     - <> cum
     - <> grool
     - <> jizz
