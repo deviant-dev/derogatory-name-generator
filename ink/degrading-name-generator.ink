@@ -65,10 +65,6 @@
     - <> no-good
     - <> pointless
     - <> rabbid
-    - <> -> racist_adjective ->
-    - <> -> racist_adjective ->
-    - <> -> racist_adjective ->
-    - <> -> racist_adjective ->
     - <> retarded
     - <> ridiculous
     - <> seductive
@@ -125,6 +121,11 @@
     - <> milkable
     - <> motherfucking
     - <> pimped-out
+    - <> -> racist_adjective ->
+    - <> -> racist_adjective ->
+    - <> -> racist_adjective ->
+    - <> -> racist_adjective ->
+    - <> -> racist_adjective ->
     - <> rapeable
     - <> slack-jawed
     - <> spankable
@@ -152,8 +153,11 @@
     - -> body_part_action_noun -> 
     - -> body_part_action_noun -> 
     - -> body_part_action_noun -> 
+    - -> body_part_action_noun -> 
+    - -> body_part_action_noun -> 
     - <> boot licker
     - <> broad
+    - <> bull fucker
     - <> call girl
     - <> chick
     - <> clit
@@ -164,6 +168,7 @@
     - <> concubine
     - <> courtesan
     - <> cow
+    - <> cow fucker
     - <> coward
     - <> crone
     - <> crybaby
@@ -176,6 +181,7 @@
     - <> dolly
     - <> doofus
     - <> dog
+    - <> dog fucker
     - <> drone
     - <> dum dum
     - <> dumbass
@@ -192,6 +198,7 @@
     - -> fuck_noun ->
     - <> gash
     - <> girl
+    - <> goat fucker
     - <> gutter trash
     - <> hag
     - <> harlot
@@ -199,6 +206,7 @@
     - <> hole
     - <> hooker
     - <> hornball
+    - <> horse fucker
     - <> hypnoslut
     - <> idiot
     - <> kiddo
@@ -207,7 +215,12 @@
     - -> liquid_action_noun -> 
     - -> liquid_action_noun -> 
     - -> liquid_action_noun -> 
-    - <> little {~bitch|cunt|girl|whore}
+    - -> liquid_action_noun -> 
+    - -> liquid_action_noun -> 
+    - <> little bitch
+    - <> little cunt
+    - <> little girl
+    - <> little whore
     - <> loser
     - <> maid
     - <> moron
@@ -220,6 +233,7 @@
     - <> piece of shit
     - <> piece of trash
     - <> pig
+    - <> pig fucker
     - <> piggy
     - <> play{~thing|toy}
     - <> plugslut
@@ -243,6 +257,7 @@
     - <> shit stain
     - <> skank
     - <> slave
+    - <> slave girl
     - <> slit
     - <> slut
     - <> slutpuppy
@@ -262,6 +277,7 @@
     - <> waste of space
     - <> whore
     - <> witch
+    - <> wolf fucker
     - <> worm
 }
 ->->
@@ -330,7 +346,7 @@
 ->->
 
 = fuck_noun
-<> fuck{~bunny|face|head|hole|meat|muffin|puppet|pole|stick|toy}
+<> fuck{~bunny|face|head|hole|meat|muffin|puppet|pole|slave|stick|toy}
 ->->
 
 = cum_noun
@@ -357,13 +373,13 @@
 = body_part_action_noun
 -> body_part ->
 {shuffle:
-    - <> eater
+    - <>-eater
     - <>face
-    - <> junkie
-    - <> licker
-    - <> lover
-    - <> sniffer
-    - <> sucker
+    - <>-junkie
+    - <>-licker
+    - <>-lover
+    - <>-sniffer
+    - <>-sucker
 }
 ->->
 
@@ -402,20 +418,20 @@
 = liquid_action_noun
 -> liquid ->
 {shuffle:
-    - <> breath
-    - <> bucket
-    - <> cup
-    - <> drinker
-    - <> dumpster
+    - <>-breath
+    - <>-bucket
+    - <>-cup
+    - <>-drinker
+    - <>-dumpster
     - <>face
-    - <> junkie
-    - <> guzzler
-    - <> licker
-    - <> lover
-    - <> jar
-    - <> rag
-    - <> receptacle
-    - <> sucker
+    - <>-junkie
+    - <>-guzzler
+    - <>-licker
+    - <>-lover
+    - <>-jar
+    - <>-rag
+    - <>-receptacle
+    - <>-sucker
 }
 ->->
 
