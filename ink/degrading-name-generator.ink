@@ -26,32 +26,66 @@
 
 = adjective_early
 {shuffle: 
+    - <> buxom
+    - <> chubby
     - <> chunky
+    - <> cute
+    - <> demonic
     - <> desperate
+    - <> deviant
     - <> dirty
     - <> discarded
+    - <> disgusting
+    - <> dizzy
     - <> dopey
     - <> dumb
+    - <> dumpy
     - <> fat
+    - <> fatass
+    - <> fertile
+    - <> flabby
     - <> fucked up
+    - <> juicy
+    - <> gross
+    - <> helpless
     - <> horny
+    - <> icky
+    - <> insatiable
+    - <> inane
+    - <> insane
     - <> lard-assed
     - <> lazy
     - <> loose
+    - <> mental
+    - <> mindless
     - <> moronic
     - <> naughty
     - <> needy
     - <> no-good
+    - <> pointless
+    - <> rabbid
+    - <> -> racist_adjective ->
+    - <> -> racist_adjective ->
+    - <> -> racist_adjective ->
+    - <> -> racist_adjective ->
     - <> retarded
+    - <> ridiculous
+    - <> seductive
+    - <> silly
+    - <> sultry
     - <> stupid
+    - <> thicc
+    - <> tormented
+    - <> tubby
     - <> ugly
     - <> unwanted
+    - <> unworthy
     - <> useless
+    - <> vacuous
+    - <> vapid
+    - <> wasted
     - <> worthless
-    - <> -> racist_adjective ->
-    - <> -> racist_adjective ->
-    - <> -> racist_adjective ->
-    - <> -> racist_adjective ->
+    - <> wretched
 }
 ->->
 
@@ -65,43 +99,69 @@
     - -> body_part_action_adjective ->
     - -> body_part_action_adjective ->
     - -> body_part_action_adjective ->
+    - <> bovine
+    - <> brainwashed
+    - <> carnal
     - <> cream-filled
+    - <> debaucherous
+    - <> doe-eyed
     - <> dripping
     - <> drooling
+    - <> drug-addled
+    - <> drugged
     - <> fistable
+    - <> floggable
     - <> fuckable
     - <> fucking
     - <> gaping
     - <> gooey
+    - <> grovelling
     - -> liquid_action_adjective ->
     - -> liquid_action_adjective ->
     - -> liquid_action_adjective ->
     - -> liquid_action_adjective ->
     - <> loose-holed
+    - <> milkable
     - <> motherfucking
     - <> pimped-out
+    - <> rapeable
+    - <> slack-jawed
+    - <> spankable
     - <> {~soaking|sopping} wet
+    - <> spiral-eyed
     - <> stretched-out
     - <> swampy
+    - <> vile
+    - <> violated
 }
 
 ->->
 
 = noun
 {shuffle:
+    - <> airhead
     - <> asshole
     - <> ass wipe
     - <> attention whore
+    - <> baby maker
+    - <> babydoll
+    - <> babygirl
     - <> bitch
     - <> {~bitch|dog} in heat
     - -> body_part_action_noun -> 
     - -> body_part_action_noun -> 
     - -> body_part_action_noun -> 
+    - <> boot licker
+    - <> broad
+    - <> call girl
+    - <> chick
     - <> clit
     - <> cocksleeve
     - <> cock whore
     - <> {~cock|dick|penis} {~rider|receiver|receptacle}
     - <> cock {~fiend|socket}
+    - <> concubine
+    - <> courtesan
     - <> cow
     - <> coward
     - <> crone
@@ -112,10 +172,15 @@
     - -> cum_noun ->
     - <> cunt
     - <> dickhead
+    - <> dolly
     - <> doofus
     - <> dog
+    - <> drone
+    - <> dum dum
     - <> dumbass
     - <> dummy
+    - <> edgeslut
+    - <> female
     - <> fleshlight
     - <> footstool
     - <> freak
@@ -128,11 +193,16 @@
     - <> girl
     - <> gutter trash
     - <> hag
+    - <> harlot
+    - <> hellcat
     - <> hole
     - <> hooker
     - <> hornball
     - <> hypnoslut
     - <> idiot
+    - <> kiddo
+    - <> kitten
+    - <> lech
     - -> liquid_action_noun -> 
     - -> liquid_action_noun -> 
     - -> liquid_action_noun -> 
@@ -141,7 +211,9 @@
     - <> maid
     - <> moron
     - <> motherfucker
+    - <> nympho
     - <> painslut
+    - <> peon
     - <> pet
     - <> piece of meat
     - <> piece of shit
@@ -164,19 +236,28 @@
     - <> retard
     - <> rimjob expert
     - <> servant
+    - <> sex object
     - <> sex slave
+    - <> she-devil
     - <> shit stain
     - <> skank
     - <> slave
     - <> slit
     - <> slut
     - <> slutpuppy
+    - <> sorceress
+    - <> strumpet
+    - <> temptress
+    - <> tits-for-brains
     - <> toilet
     - <> toilet {~face|licker|mouth|paper|replacement}
     - <> tongue fucker
     - <> tonsil jockey
+    - <> thot
+    - <> underling
     - <> urinal
     - <> vaginal discharge
+    - <> vixen
     - <> waste of space
     - <> whore
     - <> witch
@@ -190,10 +271,12 @@
     - <> brillo-headed
     - <> broke-ass
     - <> burnt
+    - <> chestnut
     - <> chicken-licking
     - <> chocolate
     - <> colored
     - <> cripsy
+    - <> ebony
     - <> jive-ass
     - <> licorice
     - <> light-skinned
@@ -203,6 +286,7 @@
     - <> sooty
     - <> thick-lipped
     - <> uppity
+    - <> voodoo
 }
 ->->
 
@@ -215,6 +299,8 @@
     - <> blackie
     - <> brownie
     - <> buckwheat
+    - <> captive
+    - <> chattel
     - <> coon
     - <> crow
     - <> darky
@@ -244,7 +330,7 @@
 ->->
 
 = fuck_noun
-<> fuck{~bunny|face|head|hole|meat|muffin|pole|stick|toy}
+<> fuck{~bunny|face|head|hole|meat|muffin|puppet|pole|stick|toy}
 ->->
 
 = cum_noun
@@ -256,6 +342,8 @@
     - <> ass
     - <> ball
     - <> butt
+    - <> cervix
+    - <> clit
     - <> cock
     - <> cunt
     - <> dick
@@ -272,7 +360,6 @@
     - <> eater
     - <>face
     - <> junkie
-    - <> kisser
     - <> licker
     - <> lover
     - <> sniffer
@@ -289,6 +376,7 @@
     - <>-kissing
     - <>-licking
     - <>-loving
+    - <>-obsessed
     - <>-slurping
     - <>-sniffing
     - <>-sucking
@@ -299,6 +387,7 @@
 {shuffle: 
     - <> cunt cream
     - <> cum
+    - <> grool
     - <> jizz
     - <> pee
     - <> piss
@@ -342,6 +431,7 @@
     - <>-thirsty
     - <>-licking
     - <>-loving
+    - <>-obsessed
     - <>-slupring
     - <>-sucking
 }
