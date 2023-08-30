@@ -324,11 +324,18 @@
     - <> darky
     - <> eggplant
     - <> golliwog
+    - <> half-blood
     - <> half-breed
+    - <> half-human
     - <> heathen
     - <> jiggabo
     - <> jungle bunny
+    - <> mixed blood
+    - <> mongrel
     - <> monkey
+    - <> mudblood
+    - <> mutt
+    - <> negro
     - <> negroid
     - <> nigger
     - <> niglet
