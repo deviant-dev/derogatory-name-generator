@@ -13,10 +13,12 @@
     - -> adjective_early ->
     - -> adjective_early ->
     - -> adjective_early ->
+    - -> adjective_early ->
     - 
 }
 
 {shuffle:
+    - -> adjective ->
     - -> adjective ->
     - -> adjective ->
     - -> adjective ->
@@ -51,11 +53,13 @@
     - <> helpless
     - <> horny
     - <> icky
+    - <> idiotic
     - <> insatiable
     - <> inane
     - <> insane
     - <> lard-assed
     - <> lazy
+    - <> little
     - <> loose
     - <> mental
     - <> mindless
@@ -63,6 +67,7 @@
     - <> naughty
     - <> needy
     - <> no-good
+    - <> over-stuffed
     - <> pointless
     - <> rabbid
     - <> retarded
@@ -80,6 +85,7 @@
     - <> useless
     - <> vacuous
     - <> vapid
+    - <> vile
     - <> wasted
     - <> worthless
     - <> wretched
@@ -133,7 +139,6 @@
     - <> spiral-eyed
     - <> stretched-out
     - <> swampy
-    - <> vile
     - <> violated
 }
 
@@ -142,12 +147,12 @@
 = noun
 {shuffle:
     - <> airhead
-    - <> asshole
     - <> ass wipe
     - <> attention whore
     - <> baby maker
     - <> babydoll
     - <> babygirl
+    - <> bang-{~bitch|broad|slut|whore}
     - <> bitch
     - <> {~bitch|dog} in heat
     - -> body_part_action_noun -> 
@@ -167,7 +172,6 @@
     - <> cock {~fiend|socket}
     - <> concubine
     - <> courtesan
-    - <> cow
     - <> cow fucker
     - <> coward
     - <> crone
@@ -177,9 +181,7 @@
     - -> cum_noun ->
     - -> cum_noun ->
     - <> cunt
-    - <> dickhead
     - <> dolly
-    - <> doofus
     - <> dog
     - <> dog fucker
     - <> drone
@@ -191,11 +193,10 @@
     - <> fleshlight
     - <> footstool
     - <> freak
-    - <> fuck
-    - <> fucker
     - -> fuck_noun ->
     - -> fuck_noun ->
     - -> fuck_noun ->
+    - <> fucktoy
     - <> gash
     - <> girl
     - <> goat fucker
@@ -208,7 +209,6 @@
     - <> hornball
     - <> horse fucker
     - <> hypnoslut
-    - <> idiot
     - <> kiddo
     - <> kitten
     - <> lech
@@ -217,12 +217,9 @@
     - -> liquid_action_noun -> 
     - -> liquid_action_noun -> 
     - -> liquid_action_noun -> 
-    - <> little bitch
-    - <> little cunt
-    - <> little girl
-    - <> little whore
     - <> loser
     - <> maid
+    - <> moo cow
     - <> moron
     - <> motherfucker
     - <> nympho
@@ -239,6 +236,7 @@
     - <> plugslut
     - <> ponygirl
     - <> property
+    - <> puppy
     - <> pussy
     - -> racist_noun ->
     - -> racist_noun ->
@@ -270,7 +268,6 @@
     - <> tongue fucker
     - <> tonsil jockey
     - <> thot
-    - <> underling
     - <> urinal
     - <> vaginal discharge
     - <> vixen
@@ -294,6 +291,7 @@
     - <> colored
     - <> cripsy
     - <> ebony
+    - <> ghetto
     - <> jive-ass
     - <> licorice
     - <> light-skinned
@@ -371,8 +369,10 @@
     - <> cunt
     - <> dick
     - <> fart
+    - <> gash
     - <> penis
     - <> pussy
+    - <> slit
     - <> testicle
 }
 ->->
