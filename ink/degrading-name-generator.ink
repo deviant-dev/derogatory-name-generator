@@ -115,7 +115,6 @@
     - <> fistable
     - <> floggable
     - <> fuckable
-    - <> fucking
     - <> gaping
     - <> gooey
     - <> grovelling
@@ -125,7 +124,6 @@
     - -> liquid_action_adjective ->
     - <> loose-holed
     - <> milkable
-    - <> motherfucking
     - <> pimped-out
     - <> -> racist_adjective ->
     - <> -> racist_adjective ->
@@ -221,7 +219,6 @@
     - <> maid
     - <> moo cow
     - <> moron
-    - <> motherfucker
     - <> nympho
     - <> painslut
     - <> peon
@@ -238,6 +235,16 @@
     - <> property
     - <> puppy
     - <> pussy
+    - -> racist_noun ->
+    - -> racist_noun ->
+    - -> racist_noun ->
+    - -> racist_noun ->
+    - -> racist_noun ->
+    - -> racist_noun ->
+    - -> racist_noun ->
+    - -> racist_noun ->
+    - -> racist_noun ->
+    - -> racist_noun ->
     - -> racist_noun ->
     - -> racist_noun ->
     - -> racist_noun ->
