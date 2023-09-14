@@ -31,6 +31,7 @@
     - <> buxom
     - <> chubby
     - <> chunky
+    - <> crazy
     - <> cute
     - <> demonic
     - <> desperate
@@ -47,6 +48,7 @@
     - <> fertile
     - <> flabby
     - <> foxy
+    - <> freaky
     - <> fucked up
     - <> juicy
     - <> gross
@@ -62,7 +64,6 @@
     - <> little
     - <> loose
     - <> loose-holed
-    - <> mental
     - <> mindless
     - <> moronic
     - <> naughty
@@ -73,6 +74,7 @@
     - <> rabbid
     - <> retarded
     - <> ridiculous
+    - <> ruined
     - <> seductive
     - <> silly
     - <> sultry
@@ -146,7 +148,7 @@
 = noun
 {shuffle:
     - <> airhead
-    - <> ass wipe
+    - <> ass wipe 
     - <> attention whore
     - <> baby maker
     - <> babydoll
@@ -176,7 +178,6 @@
     - <> courtesan
     - <> cow fucker
     - <> coward
-    - <> crone
     - <> crybaby
     - <> cuckquean
     - -> cum_noun ->
@@ -194,6 +195,7 @@
     - <> dumbass
     - <> dummy
     - <> edgeslut
+    - <> faded
     - <> female
     - <> fleshlight
     - <> footstool
@@ -215,7 +217,9 @@
     - <> hooker
     - <> hornball
     - <> horse fucker
+    - <> hottie
     - <> hypnoslut
+    - <> jezebel
     - <> kiddo
     - <> kitten
     - <> lech
@@ -272,6 +276,8 @@
     - <> sex slave
     - <> she-devil
     - <> shit stain
+    - <> shorty
+    - <> siren
     - <> skank
     - <> slave
     - <> slave girl
@@ -280,10 +286,12 @@
     - <> slutpuppy
     - <> sorceress
     - <> strumpet
+    - <> succubitch
+    - <> succubus
     - <> temptress
     - <> tits-for-brains
     - <> toilet
-    - <> toilet {~face|licker|mouth|paper|replacement}
+    - <> toilet {~face|licker|mouth|replacement}
     - <> tongue fucker
     - <> tonsil jockey
     - <> thot
@@ -304,6 +312,7 @@
     - <> brillo-headed
     - <> broke-ass
     - <> burnt
+    - <> char-broiled
     - <> chestnut
     - <> chicken-licking
     - <> chocolate
@@ -311,11 +320,13 @@
     - <> cripsy
     - <> ebony
     - <> ghetto
+    - <> ghetto-ass
     - <> jive-ass
     - <> licorice
     - <> light-skinned
     - <> {~mulatto|'latto}
     - <> nappy
+    - <> nappy-ass
     - <> over-cooked
     - <> shit-stained
     - <> sooty
@@ -332,6 +343,7 @@
     - <> aunt jemima
     - <> barbarian
     - <> blackie
+    - <> brown sugar
     - <> brownie
     - <> buckwheat
     - <> captive
@@ -345,6 +357,7 @@
     - <> half-breed
     - <> half-human
     - <> heathen
+    - <> hood rat
     - <> jiggabo
     - <> jungle bunny
     - <> mixed blood
@@ -354,6 +367,7 @@
     - <> mutt
     - <> negro
     - <> negroid
+    - <> nigga
     - <> nigger
     - <> niglet
     - <> negress
@@ -387,7 +401,6 @@
     - <> cock
     - <> cunt
     - <> dick
-    - <> fart
     - <> gash
     - <> penis
     - <> pussy
@@ -403,7 +416,7 @@
     - <>face
     - <>-junkie
     - <>-licker
-    - <>-lover
+    - <> lover
     - <>-sniffer
     - <>-sucker
 }
