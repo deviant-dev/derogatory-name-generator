@@ -61,6 +61,7 @@
     - <> lazy
     - <> little
     - <> loose
+    - <> loose-holed
     - <> mental
     - <> mindless
     - <> moronic
@@ -98,6 +99,7 @@
     - <> 3-holed
     - <> anal
     - <> ass-rimming
+    - <> blown-out
     - -> body_part_action_adjective ->
     - -> body_part_action_adjective ->
     - -> body_part_action_adjective ->
@@ -122,7 +124,6 @@
     - -> liquid_action_adjective ->
     - -> liquid_action_adjective ->
     - -> liquid_action_adjective ->
-    - <> loose-holed
     - <> milkable
     - <> pimped-out
     - <> -> racist_adjective ->
@@ -158,6 +159,9 @@
     - -> body_part_action_noun -> 
     - -> body_part_action_noun -> 
     - -> body_part_action_noun -> 
+    - -> body_part_action_noun -> 
+    - -> body_part_action_noun -> 
+    - -> body_part_action_noun -> 
     - <> boot licker
     - <> broad
     - <> bull fucker
@@ -178,6 +182,9 @@
     - -> cum_noun ->
     - -> cum_noun ->
     - -> cum_noun ->
+    - -> cum_noun ->
+    - -> cum_noun ->
+    - -> cum_noun ->
     - <> cunt
     - <> dolly
     - <> dog
@@ -194,7 +201,9 @@
     - -> fuck_noun ->
     - -> fuck_noun ->
     - -> fuck_noun ->
-    - <> fucktoy
+    - -> fuck_noun ->
+    - -> fuck_noun ->
+    - -> fuck_noun ->
     - <> gash
     - <> girl
     - <> goat fucker
@@ -210,6 +219,9 @@
     - <> kiddo
     - <> kitten
     - <> lech
+    - -> liquid_action_noun -> 
+    - -> liquid_action_noun -> 
+    - -> liquid_action_noun -> 
     - -> liquid_action_noun -> 
     - -> liquid_action_noun -> 
     - -> liquid_action_noun -> 
@@ -358,7 +370,7 @@
 ->->
 
 = fuck_noun
-<> fuck{~bunny|face|head|hole|meat|muffin|puppet|pole|slave|stick|toy}
+<> fuck{~bunny|face|head|hole|meat|muffin|puppet|pole|slave|stick|toy| up}
 ->->
 
 = cum_noun
