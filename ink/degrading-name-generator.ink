@@ -73,6 +73,7 @@
     - <> pointless
     - <> rabbid
     - <> retarded
+    - <> ratchet
     - <> ridiculous
     - <> ruined
     - <> seductive
@@ -115,7 +116,7 @@
     - <> dripping
     - <> drooling
     - <> drug-addled
-    - <> drugged
+    - <> drugged-out
     - <> fistable
     - <> floggable
     - <> fuckable
@@ -186,7 +187,9 @@
     - -> cum_noun ->
     - -> cum_noun ->
     - -> cum_noun ->
+    - <> cum twat
     - <> cunt
+    - <> cunt fillet
     - <> dolly
     - <> dog
     - <> dog fucker
@@ -209,10 +212,12 @@
     - <> gash
     - <> girl
     - <> goat fucker
+    - <> gremlin
     - <> gutter trash
     - <> hag
     - <> harlot
     - <> hellcat
+    - <> hoe
     - <> hole
     - <> hooker
     - <> hornball
@@ -251,6 +256,7 @@
     - <> property
     - <> puppy
     - <> pussy
+    - <> pussy fillet
     - -> racist_noun ->
     - -> racist_noun ->
     - -> racist_noun ->
@@ -299,6 +305,7 @@
     - <> vaginal discharge
     - <> vixen
     - <> waste of space
+    - <> wench
     - <> whore
     - <> witch
     - <> wolf fucker
