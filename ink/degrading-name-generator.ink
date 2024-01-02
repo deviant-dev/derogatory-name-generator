@@ -1,14 +1,38 @@
+Today, I want to feel...
+
+- (start)
+
++ [Random]
+    <center>...random, so today my name is:</center>
+    -> name -> again
++ [Owned]
+    <center>...owned, so today my name is:</center>
+    -> name_slave -> again
++ [Little]
+    <center>...little, so today my name is:</center>
+    -> name_little -> again
++ [Moo]
+    <center>...moo, so today my name is:</center>
+    -> name_cow -> again
++ [Dumb]
+    <center>...dumb, so today my name is:</center>
+    -> name_dumb -> again
++ [Mindless]
+    <center>...mindless, so today my name is:</center>
+    -> name_drone -> again
++ [Fat]
+    <center>...fat, so today my name is:</center>
+    -> name_fat -> again
++ [Discriminated]
+    <center>...discriminated, so today my name is:</center>
+    -> name_black -> again
+
 - (again)
-
-<center>Today your name is:</center> #CLEAR
-
-<center><h3>
--> name ->
-</h3></center>
-+ [Again]
-    -> again
+Actually, I am feeling...
+-> start
 
 = name
+<center><h3>
 {shuffle:
     - -> adjective_early ->
     - -> adjective_early ->
@@ -25,295 +49,814 @@
     - 
 }
 -> noun ->->
+</h3></center>
+
+= name_black
+<center><h3>
+{shuffle:
+    -   {shuffle:
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            -
+        }
+        {shuffle:
+            - -> adjective_racist ->
+            - -> adjective_racist ->
+            - -> adjective ->
+            -
+        }
+        -> noun_racist ->
+    -   {shuffle:
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            -
+        }
+        -> adjective_racist ->
+        {shuffle:
+            - -> noun_racist ->
+            - -> noun_racist ->
+            - -> noun ->
+        }
+}
+</h3></center>
+->->
+
+= name_cow
+<center><h3>
+{shuffle:
+    -   {shuffle:
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            -
+        }
+        {shuffle:
+            - -> adjective_bovine ->
+            - -> adjective_bovine ->
+            - -> adjective ->
+            -
+        }
+        -> noun_bovine ->
+    -   {shuffle:
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            -
+        }
+        -> adjective_bovine ->
+        {shuffle:
+            - -> noun_bovine ->
+            - -> noun_bovine ->
+            - -> noun ->
+        }
+}
+</h3></center>
+->->
+
+= name_drone
+<center><h3>
+{shuffle:
+    -   {shuffle:
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            -
+        }
+        {shuffle:
+            - -> adjective_mindless ->
+            - -> adjective_mindless ->
+            - -> adjective ->
+            -
+        }
+        -> noun_mindless ->
+    -   {shuffle:
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            -
+        }
+        -> adjective_mindless ->
+        {shuffle:
+            - -> noun_mindless ->
+            - -> noun_mindless ->
+            - -> noun ->
+        }
+}
+</h3></center>
+->->
+
+= name_dumb
+<center><h3>
+{shuffle:
+    -   {shuffle:
+            - -> adjective_stupid ->
+            - -> adjective_stupid ->
+            - -> adjective_early ->
+            -
+        }
+        {shuffle:
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - 
+        }
+        -> noun_stupid ->
+    -   -> adjective_stupid ->
+        {shuffle:
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - 
+        }
+        {shuffle:
+            - -> noun_stupid ->
+            - -> noun_stupid ->
+            - -> noun ->
+        }
+}
+</h3></center>
+->->
+
+= name_fat
+<center><h3>
+{shuffle:
+    -   {shuffle:
+            - -> adjective_fat ->
+            - -> adjective_fat ->
+            - -> adjective_early ->
+            -
+        }
+        {shuffle:
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - 
+        }
+        -> noun_fat ->
+    -   -> adjective_fat ->
+        {shuffle:
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - 
+        }
+        {shuffle:
+            - -> noun_fat ->
+            - -> noun_fat ->
+            - -> noun ->
+        }
+}
+</h3></center>
+->->
+
+= name_little
+<center><h3>
+{shuffle:
+    -   {shuffle:
+            - -> adjective_crazy ->
+            - -> adjective_sexy ->
+            - -> adjective_stupid ->
+            - -> adjective_little ->
+            - -> adjective_little ->
+            - -> adjective_little ->
+            -
+        }
+        {shuffle:
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - 
+        }
+        -> noun_little ->
+    -   -> adjective_little ->
+        {shuffle:
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - 
+        }
+        {shuffle:
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_little ->
+            - -> noun_cum ->
+            - -> noun_fuck ->
+            - -> noun_mindless ->
+            - -> noun_pet ->
+            - -> noun_perverted ->
+            - -> noun_sexual ->
+            - -> noun_stupid ->
+        }
+}
+</h3></center>
+->->
+
+= name_slave
+<center><h3>
+{shuffle:
+    -   {shuffle:
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            -
+        }
+        {shuffle:
+            - -> adjective_enslaved ->
+            - -> adjective_enslaved ->
+            - -> adjective ->
+            - -> adjective ->
+            -
+        }
+        -> noun_servant ->
+    -   {shuffle:
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            -
+        }
+        -> adjective_enslaved ->
+        {shuffle:
+            - -> noun_servant ->
+            - -> noun_servant ->
+            - -> noun ->
+        }
+}
+</h3></center>
+->->
 
 = adjective_early
 {shuffle: 
-    - <> buxom
-    - <> chubby
-    - <> chunky
-    - <> crazy
-    - <> cute
-    - <> demonic
-    - <> desperate
-    - <> deviant
-    - <> dirty
-    - <> discarded
-    - <> disgusting
-    - <> dizzy
-    - <> dopey
-    - <> dumb
-    - <> dumpy
-    - <> fat
-    - <> fatass
-    - <> fertile
-    - <> flabby
-    - <> foxy
-    - <> freaky
-    - <> fucked up
-    - <> juicy
-    - <> gross
-    - <> helpless
-    - <> horny
-    - <> icky
-    - <> idiotic
-    - <> insatiable
-    - <> inane
-    - <> insane
-    - <> lard-assed
-    - <> lazy
-    - <> little
-    - <> loose
-    - <> loose-holed
-    - <> mindless
-    - <> moronic
-    - <> naughty
-    - <> needy
-    - <> no-good
-    - <> over-stuffed
-    - <> pointless
-    - <> rabbid
-    - <> retarded
-    - <> ratchet
-    - <> ridiculous
-    - <> ruined
-    - <> seductive
-    - <> silly
-    - <> sultry
-    - <> stupid
-    - <> thicc
-    - <> tormented
-    - <> tubby
-    - <> ugly
-    - <> unwanted
-    - <> unworthy
-    - <> useless
-    - <> vacuous
-    - <> vapid
-    - <> vile
-    - <> wasted
-    - <> worthless
-    - <> wretched
+    - -> adjective_crazy ->
+    - -> adjective_fat ->
+    - -> adjective_gross ->
+    - -> adjective_little ->
+    - -> adjective_perverted ->
+    - -> adjective_sexy ->
+    - -> adjective_stupid ->
+    - -> adjective_worthless ->
 }
 ->->
 
 = adjective
 
 {shuffle:
-    - <> 3-holed
-    - <> anal
-    - <> ass-rimming
-    - <> blown-out
-    - -> body_part_action_adjective ->
-    - -> body_part_action_adjective ->
-    - -> body_part_action_adjective ->
-    - -> body_part_action_adjective ->
-    - <> bovine
-    - <> brainwashed
-    - <> carnal
-    - <> cream-filled
-    - <> debaucherous
-    - <> doe-eyed
-    - <> dripping
-    - <> drooling
-    - <> drug-addled
-    - <> drugged-out
-    - <> fistable
-    - <> floggable
-    - <> fuckable
-    - <> gaping
-    - <> gooey
-    - <> grovelling
-    - -> liquid_action_adjective ->
-    - -> liquid_action_adjective ->
-    - -> liquid_action_adjective ->
-    - -> liquid_action_adjective ->
-    - <> milkable
-    - <> pimped-out
-    - <> -> racist_adjective ->
-    - <> -> racist_adjective ->
-    - <> -> racist_adjective ->
-    - <> -> racist_adjective ->
-    - <> -> racist_adjective ->
-    - <> rapeable
-    - <> slack-jawed
-    - <> spankable
-    - <> {~soaking|sopping} wet
-    - <> spiral-eyed
-    - <> stretched-out
-    - <> swampy
-    - <> violated
+    - -> adjective_body_part_action ->
+    - -> adjective_bovine ->
+    - -> adjective_enslaved ->
+    - -> adjective_liquid_action ->
+    - -> adjective_mindless ->
+    - -> adjective_racist ->
+    - -> adjective_sexual ->
+    - -> adjective_violated ->
 }
 
 ->->
 
 = noun
 {shuffle:
-    - <> airhead
-    - <> ass wipe 
+    - -> noun_body_part_action -> 
+    - -> noun_bovine ->
+    - -> noun_cum ->
+    - -> noun_fat ->
+    - -> noun_fuck ->
+    - -> noun_insult ->
+    - -> noun_liquid_action -> 
+    - -> noun_little ->
+    - -> noun_mindless ->
+    - -> noun_objectified ->
+    - -> noun_pet ->
+    - -> noun_perverted ->
+    - -> noun_prostitute ->
+    - -> noun_racist ->
+    - -> noun_servant ->
+    - -> noun_sexual ->
+    - -> noun_stupid ->
+    - -> noun_woman ->
+    - -> noun_worthless ->
+}
+->->
+
+= adjective_crazy
+{shuffle:
+    - <> batty
+    - <> crazy
+    - <> cuckoo
+    - <> demented
+    - <> deranged
+    - <> fucked up
+    - <> insane
+    - <> loony
+    - <> ludicrous
+    - <> mad
+    - <> maniacal
+    - <> nutty
+    - <> psycho
+    - <> rabbid
+    - <> screwy
+    - <> unhinged
+}
+->->
+
+= adjective_drugged
+{shuffle:
+    - <> addicted
+    - <> alcoholic
+    - <> anesthetized
+    - <> baked
+    - <> doped up
+    - <> drug-addled
+    - <> drugged
+    - <> drunk
+    - <> faded
+    - <> high
+    - <> inebriated
+    - <> intoxicated
+    - <> loaded
+    - <> sedated
+    - <> sloshed
+    - <> stoned
+    - <> tanked
+    - <> tripping
+    - <> wasted
+}
+->->
+
+= adjective_fat
+{shuffle:
+    - <> blubbery
+    - <> bootylicious
+    - <> buxom
+    - <> chubby
+    - <> chunky
+    - <> dumpy
+    - <> fat
+    - <> fatass
+    - <> flabby
+    - <> greasy
+    - <> lard-assed
+    - <> lard-filled
+    - <> obese
+    - <> overweight
+    - <> paunchy
+    - <> plump
+    - <> portly
+    - <> rotund
+    - <> rubenesque
+    - <> thicc
+    - <> thunder-thighted
+    - <> tubby
+    - <> voluptuous
+}
+->->
+
+= adjective_gross
+{shuffle:
+    - <> dirty
+    - <> disgusting
+    - <> gross
+    - <> icky
+    - <> ratchet
+    - <> ruined
+    - <> vile
+    - <> wretched
+}
+->->
+
+= adjective_little
+{shuffle:
+    - <> adorable
+    - <> cute
+    - <> darling
+    - <> doll-like
+    - <> little
+    - <> precious
+    - <> sweet
+}
+->->
+
+= adjective_perverted
+{shuffle:
+    - <> debaucherous
+    - <> demonic
+    - <> desperate
+    - <> deviant
+    - <> freaky
+    - <> freakish
+    - <> insatiable
+    - <> loose
+    - <> loose-holed
+    - <> naughty
+    - <> needy
+    - <> over-stuffed
+    - <> pimped-out
+    - <> tormented
+    - <> weird
+}
+->->
+
+= adjective_sexy
+{shuffle: 
+    - <> buxom
+    - <> fertile
+    - <> foxy
+    - <> juicy
+    - <> horny
+    - <> seductive
+    - <> sultry
+}
+->->
+
+= adjective_stupid
+{shuffle:
+    - <> absurd
+    - <> dizzy
+    - <> dopey
+    - <> dull-witted
+    - <> dumb
+    - <> dumb-ass
+    - <> foolish
+    - <> glassy-eyed
+    - <> idiotic
+    - <> inane
+    - <> mindless
+    - <> moronic
+    - <> retarded
+    - <> ridiculous
+    - <> silly
+    - <> stupid
+    - <> vacuous
+    - <> vapid
+}
+->->
+
+= adjective_tiny
+{shuffle:
+    - <> niggling
+    - <> pint-sized
+    - <> pocket-sized
+    - <> scant
+    - <> teeny
+    - <> trivial
+}
+->->
+
+= adjective_worthless
+{shuffle:
+    - <> discarded
+    - <> helpless
+    - <> lazy
+    - <> no-good
+    - <> pointless
+    - <> ugly
+    - <> unwanted
+    - <> unworthy
+    - <> useless
+    - <> worthless
+}
+->->
+
+= adjective_bovine
+{shuffle:
+    - <> barn-raised
+    - <> bovine
+    - <> cow-brained
+    - <> cow-like
+    - <> farm-fed
+    - <> milkable
+    - <> mooing
+    - <> uddered
+}
+->->
+
+= adjective_enslaved
+{shuffle:
+    - <> bound
+    - <> caged
+    - <> captured
+    - <> chained-up
+    - <> confined
+    - <> controlled
+    - <> dominated
+    - <> enthralled
+    - <> exploited
+    - <> imprisoned
+    - <> locked-up
+    - <> oppressed
+    - <> owned
+    - <> restrained
+    - <> strapped-down
+    - <> subjugated
+    - <> submissive
+}
+->->
+
+= adjective_mindless
+{shuffle:
+    - <> brainwashed
+    - <> drooling
+    - <> drug-addled
+    - <> drugged-out
+    - <> grovelling
+    - <> slack-jawed
+    - <> spiral-eyed
+}
+->->
+
+= adjective_sexual
+{shuffle:
+    - <> 3-holed
+    - <> anal
+    - <> ass-rimming
+    - <> blown-out
+    - <> carnal
+    - <> fistable
+    - <> gooey
+    - <> {~soaking|sopping} wet
+    - <> swampy
+}
+->->
+
+= adjective_violated
+{shuffle:
+    - <> cream-filled
+    - <> dripping
+    - <> floggable
+    - <> fuckable
+    - <> gaping
+    - <> rapeable
+    - <> spankable
+    - <> stretched-out
+    - <> violated
+}
+->->
+
+= noun_bovine
+{shuffle:
+    - <> cow
+    - <> cuntmeat
+    - <> fuckmeat
+    - <> heifer
+    - <> hucow
+    - <> livestock
+    - <> moo cow
+}
+->->
+
+= noun_crazy
+{shuffle:
+    - <> 
+}
+->->
+
+= noun_fat
+{shuffle:
+    - <> butterball
+    - <> fat fuck
+    - <> fatass
+    - <> fattie
+    - <> hog
+    - <> muffin top
+    - <> oinker
+    - <> pig
+    - <> piggy
+    - <> porker
+    - <> sow
+    - <> swine
+    - <> tub of lard
+}
+->->
+
+= noun_insult
+{shuffle:
+    - <> asswipe 
     - <> attention whore
-    - <> baby maker
+    - <> gremlin
+    - <> pussy
+}
+->->
+
+= noun_little
+{shuffle:
     - <> babydoll
     - <> babygirl
-    - <> bang-{~bitch|broad|slut|whore}
-    - <> bitch
-    - <> {~bitch|dog} in heat
-    - -> body_part_action_noun -> 
-    - -> body_part_action_noun -> 
-    - -> body_part_action_noun -> 
-    - -> body_part_action_noun -> 
-    - -> body_part_action_noun -> 
-    - -> body_part_action_noun -> 
-    - -> body_part_action_noun -> 
-    - -> body_part_action_noun -> 
-    - <> boot licker
-    - <> broad
-    - <> bull fucker
-    - <> call girl
-    - <> chick
+    - <> crybaby
+    - <> dolly
+    - <> girl
+    - <> kiddo
+}
+->->
+
+= noun_mindless
+{shuffle:
+    - <> automaton
+    - <> blowup doll
+    - <> bot
+    - <> container
+    - <> cunt puppet
+    - <> doll
+    - <> doormat
+    - <> droid
+    - <> drone
+    - <> fuckdoll
+    - <> fucking machine
+    - <> fucktoy
+    - <> hypnoslut
+    - <> mannequin
+    - <> mechanism
+    - <> machine
+    - <> poppet
+    - <> puppet
+    - <> rag doll
+    - <> tool
+    - <> toy
+    - <> vessel
+    - <> zombie
+}
+->->
+
+= noun_objectified
+{shuffle:
+    - <> baby maker
     - <> clit
     - <> cocksleeve
-    - <> cock whore
-    - <> {~cock|dick|penis} {~rider|receiver|receptacle}
-    - <> cock {~fiend|socket}
+    - <> {~cock|dick|penis} {~fiend|rider|receiver|receptacle}
+    - <> cock socket
+    - <> cunt fillet
+    - <> fleshlight
+    - <> footstool
+    - <> hole
+    - <> piece of meat
+    - <> play{~thing|toy}
+    - <> property
+    - <> pussy fillet
+    - <> sex object
+    - <> slit
+}
+->->
+
+= noun_perverted
+{shuffle:
+    - <> ass-licker
+    - <> bull fucker
+    - <> cow fucker
+    - <> dog fucker
+    - <> edgeslut
+    - <> freak
+    - <> goat fucker
+    - <> horse fucker
+    - <> lech
+    - <> painslut
+    - <> pig fucker
+    - <> plugslut
+    - <> rape bait
+    - <> rimjob expert
+    - <> toilet
+    - <> toilet {~face|licker|mouth|replacement}
+    - <> urinal
+    - <> vaginal discharge
+    - <> wolf fucker
+}
+->->
+
+= noun_pet
+{shuffle:
+    - <> bitch
+    - <> dog
+    - <> kitten
+    - <> pet
+    - <> ponygirl
+    - <> puppy
+    - <> slutpuppy
+}
+->->
+
+= noun_prostitute
+{shuffle:
+    - <> call girl
     - <> concubine
     - <> courtesan
-    - <> cow fucker
-    - <> coward
-    - <> crybaby
-    - <> cuckquean
-    - -> cum_noun ->
-    - -> cum_noun ->
-    - -> cum_noun ->
-    - -> cum_noun ->
-    - -> cum_noun ->
-    - -> cum_noun ->
+    - <> floozy
+    - <> harlot
+    - <> hoe
+    - <> hooker
+    - <> skank
+    - <> strumpet
+    - <> trollop
+    - <> whore
+}
+->->
+
+= noun_servant
+{shuffle:
+    - <> captive
+    - <> dungeon-dweller
+    - <> follower
+    - <> hireling
+    - <> house slave
+    - <> maid
+    - <> minion
+    - <> peon
+    - <> servant
+    - <> sex slave
+    - <> slave
+    - <> slave girl
+    - <> subordinate
+    - <> thrall
+    - <> underling
+    - <> vassal
+    - <> worker
+}
+->->
+
+= noun_sexual
+{shuffle:
+    - <> bang-{~bitch|broad|slut|whore}
+    - <> {~bitch|dog} in heat
+    - <> cock whore
     - <> cum twat
-    - <> cunt
-    - <> cunt fillet
-    - <> dolly
-    - <> dog
-    - <> dog fucker
-    - <> drone
+    - <> hellcat
+    - <> hornball
+    - <> hottie
+    - <> nympho
+    - <> tongue fucker
+    - <> tonsil jockey
+}
+->->
+
+= noun_stupid
+{shuffle:
+    - <> airhead
     - <> dum dum
     - <> dumbass
     - <> dummy
-    - <> edgeslut
-    - <> faded
-    - <> female
-    - <> fleshlight
-    - <> footstool
-    - <> freak
-    - -> fuck_noun ->
-    - -> fuck_noun ->
-    - -> fuck_noun ->
-    - -> fuck_noun ->
-    - -> fuck_noun ->
-    - -> fuck_noun ->
-    - <> gash
-    - <> girl
-    - <> goat fucker
-    - <> gremlin
-    - <> gutter trash
-    - <> hag
-    - <> harlot
-    - <> hellcat
-    - <> hoe
-    - <> hole
-    - <> hooker
-    - <> hornball
-    - <> horse fucker
-    - <> hottie
-    - <> hypnoslut
-    - <> jezebel
-    - <> kiddo
-    - <> kitten
-    - <> lech
-    - -> liquid_action_noun -> 
-    - -> liquid_action_noun -> 
-    - -> liquid_action_noun -> 
-    - -> liquid_action_noun -> 
-    - -> liquid_action_noun -> 
-    - -> liquid_action_noun -> 
-    - -> liquid_action_noun -> 
-    - -> liquid_action_noun -> 
-    - <> loser
-    - <> maid
-    - <> moo cow
     - <> moron
-    - <> nympho
-    - <> painslut
-    - <> peon
-    - <> pet
-    - <> piece of meat
-    - <> piece of shit
-    - <> piece of trash
-    - <> pig
-    - <> pig fucker
-    - <> piggy
-    - <> play{~thing|toy}
-    - <> plugslut
-    - <> ponygirl
-    - <> property
-    - <> puppy
-    - <> pussy
-    - <> pussy fillet
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - -> racist_noun ->
-    - <> rape bait
-    - <> reject
     - <> retard
-    - <> rimjob expert
-    - <> servant
-    - <> sex object
-    - <> sex slave
+    - <> tits-for-brains
+}
+->->
+
+= noun_woman
+{shuffle:
+    - <> bitch
+    - <> broad
+    - <> chick
+    - <> cunt
+    - <> gash
+    - <> female
+    - <> hag
+    - <> jezebel
     - <> she-devil
-    - <> shit stain
     - <> shorty
     - <> siren
-    - <> skank
-    - <> slave
-    - <> slave girl
-    - <> slit
     - <> slut
-    - <> slutpuppy
     - <> sorceress
-    - <> strumpet
     - <> succubitch
     - <> succubus
     - <> temptress
-    - <> tits-for-brains
-    - <> toilet
-    - <> toilet {~face|licker|mouth|replacement}
-    - <> tongue fucker
-    - <> tonsil jockey
     - <> thot
-    - <> urinal
-    - <> vaginal discharge
     - <> vixen
-    - <> waste of space
     - <> wench
-    - <> whore
     - <> witch
-    - <> wolf fucker
+}
+->->
+
+= noun_worthless
+{shuffle:
+    - <> boot licker
+    - <> coward
+    - <> cuckquean
+    - <> gutter trash
+    - <> loser
+    - <> peon
+    - <> piece of shit
+    - <> piece of trash
+    - <> reject
+    - <> shit stain
+    - <> waste of space
     - <> worm
 }
 ->->
 
-= racist_adjective
+= adjective_racist
 {shuffle:
     - <> black
     - <> brillo-headed
@@ -343,7 +886,7 @@
 }
 ->->
 
-= racist_noun
+= noun_racist
 {shuffle:
     - <> 8-ball
     - <> ape
@@ -390,11 +933,11 @@
 }
 ->->
 
-= fuck_noun
+= noun_fuck
 <> fuck{~bunny|face|head|hole|meat|muffin|puppet|pole|slave|stick|toy| up}
 ->->
 
-= cum_noun
+= noun_cum
 <> {~cum|jizz} {~breath|bucket|drinker|dumpster|face|guzzler|jar|junkie|muffin|rag|receptacle|slut|whore}
 ->->
 
@@ -416,11 +959,10 @@
 }
 ->->
 
-= body_part_action_noun
+= noun_body_part_action
 -> body_part ->
 {shuffle:
     - <>-eater
-    - <>face
     - <>-junkie
     - <>-licker
     - <> lover
@@ -429,7 +971,7 @@
 }
 ->->
 
-= body_part_action_adjective
+= adjective_body_part_action
 -> body_part ->
 {shuffle:
     - <>-craving
@@ -461,7 +1003,7 @@
 }
 ->->
 
-= liquid_action_noun
+= noun_liquid_action
 -> liquid ->
 {shuffle:
     - <>-breath
@@ -481,7 +1023,7 @@
 }
 ->->
 
-= liquid_action_adjective
+= adjective_liquid_action
 -> liquid ->
 {shuffle:
     - <>-craving
