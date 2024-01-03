@@ -1,30 +1,30 @@
-Today, I want to be...<>
+Today, I want to be...
 
 - (start)
 
 + [Random]
-    <> random, so today my name is:
+    ...random, so today my name is:
     -> name -> again
 + [Owned]
-    <> owned, so today my name is:
+    ...owned, so today my name is:
     -> name_slave -> again
 + [Little]
-    <> little, so today my name is:
+    ...little, so today my name is:
     -> name_little -> again
 + [Moo]
-    <> moo, so today my name is:
+    ...moo, so today my name is:
     -> name_cow -> again
 + [Dumb]
-    <> dumb, so today my name is:
+    ...dumb, so today my name is:
     -> name_dumb -> again
 + [Mindless]
-    <> mindless, so today my name is:
+    ...mindless, so today my name is:
     -> name_drone -> again
 + [Fat]
-    <> fat, so today my name is:
+    ...fat, so today my name is:
     -> name_fat -> again
 + [Segregated]
-    <> segregated, so today my name is:
+    ...segregated, so today my name is:
     -> name_black -> again
 
 - (again)
