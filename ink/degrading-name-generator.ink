@@ -1,34 +1,34 @@
-Today, I want to feel...
+Today, I want to be...<>
 
 - (start)
 
 + [Random]
-    <center>...random, so today my name is:</center>
+    <> random, so today my name is:
     -> name -> again
 + [Owned]
-    <center>...owned, so today my name is:</center>
+    <> owned, so today my name is:
     -> name_slave -> again
 + [Little]
-    <center>...little, so today my name is:</center>
+    <> little, so today my name is:
     -> name_little -> again
 + [Moo]
-    <center>...moo, so today my name is:</center>
+    <> moo, so today my name is:
     -> name_cow -> again
 + [Dumb]
-    <center>...dumb, so today my name is:</center>
+    <> dumb, so today my name is:
     -> name_dumb -> again
 + [Mindless]
-    <center>...mindless, so today my name is:</center>
+    <> mindless, so today my name is:
     -> name_drone -> again
 + [Fat]
-    <center>...fat, so today my name is:</center>
+    <> fat, so today my name is:
     -> name_fat -> again
-+ [Discriminated]
-    <center>...discriminated, so today my name is:</center>
++ [Segregated]
+    <> segregated, so today my name is:
     -> name_black -> again
 
 - (again)
-Actually, I am feeling...
+Actually, I want to be...
 -> start
 
 = name
@@ -195,6 +195,9 @@ Actually, I am feeling...
             - -> adjective ->
             - -> adjective ->
             - -> adjective ->
+            - -> adjective_bovine ->
+            - -> adjective_bovine ->
+            - -> adjective_bovine ->
             - 
         }
         -> noun_fat ->
@@ -204,11 +207,17 @@ Actually, I am feeling...
             - -> adjective ->
             - -> adjective ->
             - -> adjective ->
+            - -> adjective_bovine ->
+            - -> adjective_bovine ->
+            - -> adjective_bovine ->
             - 
         }
         {shuffle:
             - -> noun_fat ->
             - -> noun_fat ->
+            - -> noun_bovine ->
+            - -> noun_bovine ->
+            - -> noun ->
             - -> noun ->
         }
 }
@@ -228,26 +237,26 @@ Actually, I am feeling...
             -
         }
         {shuffle:
-            - -> adjective ->
-            - -> adjective ->
-            - -> adjective ->
-            - -> adjective ->
+            - -> adjective_body_part_action ->
+            - -> adjective_bovine ->
+            - -> adjective_liquid_action ->
+            - -> adjective_mindless ->
+            - -> adjective_sexual ->
+            - -> adjective_violated ->
             - 
         }
         -> noun_little ->
     -   -> adjective_little ->
         {shuffle:
-            - -> adjective ->
-            - -> adjective ->
-            - -> adjective ->
-            - -> adjective ->
+            - -> adjective_body_part_action ->
+            - -> adjective_bovine ->
+            - -> adjective_liquid_action ->
+            - -> adjective_mindless ->
+            - -> adjective_sexual ->
+            - -> adjective_violated ->
             - 
         }
         {shuffle:
-            - -> noun_little ->
-            - -> noun_little ->
-            - -> noun_little ->
-            - -> noun_little ->
             - -> noun_little ->
             - -> noun_little ->
             - -> noun_little ->
@@ -370,7 +379,7 @@ Actually, I am feeling...
     - <> maniacal
     - <> nutty
     - <> psycho
-    - <> rabbid
+    - <> rabid
     - <> screwy
     - <> unhinged
 }
