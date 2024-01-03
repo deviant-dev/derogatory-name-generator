@@ -349,7 +349,6 @@ Actually, I want to be...
     - -> noun_cum ->
     - -> noun_fat ->
     - -> noun_fuck ->
-    - -> noun_insult ->
     - -> noun_liquid_action -> 
     - -> noun_little ->
     - -> noun_mindless ->
@@ -365,6 +364,9 @@ Actually, I want to be...
     - -> noun_worthless ->
 }
 ->->
+
+
+// Early Adjectives
 
 = adjective_crazy
 {shuffle:
@@ -418,11 +420,14 @@ Actually, I want to be...
     - <> buxom
     - <> chubby
     - <> chunky
+    - <> corpulent
     - <> dumpy
     - <> fat
     - <> fatass
     - <> flabby
+    - <> fleshy
     - <> greasy
+    - <> heavy
     - <> lard-assed
     - <> lard-filled
     - <> obese
@@ -441,12 +446,26 @@ Actually, I want to be...
 
 = adjective_gross
 {shuffle:
+    - <> abhorrent
+    - <> crude
     - <> dirty
     - <> disgusting
+    - <> filthy
+    - <> foul
+    - <> ghastly
     - <> gross
+    - <> horrid
     - <> icky
+    - <> nasty
+    - <> nauseating
+    - <> obscene
+    - <> offensive
+    - <> odious
     - <> ratchet
+    - <> revolting
+    - <> rotten
     - <> ruined
+    - <> ugly
     - <> vile
     - <> wretched
 }
@@ -455,12 +474,26 @@ Actually, I want to be...
 = adjective_little
 {shuffle:
     - <> adorable
+    - <> beloved
+    - <> budding
+    - <> cherished
+    - <> childish
     - <> cute
     - <> darling
+    - <> dearest
     - <> doll-like
+    - <> immature
+    - <> inexperienced
+    - <> infantile
+    - <> juvenile
     - <> little
+    - <> naive
     - <> precious
+    - <> prepubescent
+    - <> preteen
+    - <> small
     - <> sweet
+    - <> underage
 }
 ->->
 
@@ -491,7 +524,13 @@ Actually, I want to be...
     - <> foxy
     - <> juicy
     - <> horny
+    - <> indecent
+    - <> lewd
+    - <> naughty
+    - <> raunchy
+    - <> salacious
     - <> seductive
+    - <> smutty
     - <> sultry
 }
 ->->
@@ -521,27 +560,81 @@ Actually, I want to be...
 
 = adjective_tiny
 {shuffle:
+    - <> diminutive
+    - <> dinky
+    - <> eensy-weensy
+    - <> fun-sized
+    - <> itsy-bitsy
+    - <> itty-bitty
+    - <> little
+    - <> measly
+    - <> micro
+    - <> miniature
+    - <> minimal
+    - <> miniscule
     - <> niggling
+    - <> piddling
     - <> pint-sized
     - <> pocket-sized
+    - <> puny
+    - <> pygmy
     - <> scant
+    - <> small
     - <> teeny
+    - <> teeny-weeny
+    - <> tiny
     - <> trivial
+    - <> undersized
 }
 ->->
 
 = adjective_worthless
 {shuffle:
     - <> discarded
+    - <> good-for-nothing
     - <> helpless
+    - <> hopeless
+    - <> inferior
+    - <> irrelevant
     - <> lazy
+    - <> meaningless
+    - <> mediocre
+    - <> needless
     - <> no-good
+    - <> non-essential
     - <> pointless
+    - <> purposeless
+    - <> rubbish
+    - <> substandard
+    - <> third-rate
+    - <> trivial
     - <> ugly
+    - <> unhelpful
+    - <> unimportant
+    - <> unnecessary
     - <> unwanted
     - <> unworthy
     - <> useless
     - <> worthless
+}
+->->
+
+
+// Middle Adjectives
+
+= adjective_body_part_action
+-> body_part ->
+{shuffle:
+    - <>-craving
+    - <>-eating
+    - <>-hungry
+    - <>-kissing
+    - <>-licking
+    - <>-loving
+    - <>-obsessed
+    - <>-slurping
+    - <>-sniffing
+    - <>-sucking
 }
 ->->
 
@@ -580,15 +673,80 @@ Actually, I want to be...
 }
 ->->
 
+= adjective_liquid_action
+-> liquid ->
+{shuffle:
+    - <>-craving
+    - <>-covered
+    - <>-drenched
+    - <>-drinking
+    - <>-gargling
+    - <>-guzzling
+    - <>-thirsty
+    - <>-licking
+    - <>-loving
+    - <>-obsessed
+    - <>-slupring
+    - <>-sucking
+}
+->->
+
 = adjective_mindless
 {shuffle:
+    - <> automatic
+    - <> automated
+    - <> brain-dead
+    - <> brainless
     - <> brainwashed
+    - <> computerized
+    - <> cunt-driven
     - <> drooling
     - <> drug-addled
     - <> drugged-out
+    - <> empty-headed
     - <> grovelling
+    - <> mechanized
+    - <> nonsensical
+    - <> oblivious
+    - <> programmed
+    - <> robotic
     - <> slack-jawed
     - <> spiral-eyed
+    - <> unintelligent
+    - <> unthinking
+    - <> unwilled
+    - <> vapid
+    - <> witless
+}
+->->
+
+= adjective_racist
+{shuffle:
+    - <> black
+    - <> brillo-headed
+    - <> broke-ass
+    - <> burnt
+    - <> char-broiled
+    - <> chestnut
+    - <> chicken-licking
+    - <> chocolate
+    - <> colored
+    - <> cripsy
+    - <> ebony
+    - <> ghetto
+    - <> ghetto-ass
+    - <> jive-ass
+    - <> licorice
+    - <> light-skinned
+    - <> {~mulatto|'latto}
+    - <> nappy
+    - <> nappy-ass
+    - <> over-cooked
+    - <> shit-stained
+    - <> sooty
+    - <> thick-lipped
+    - <> uppity
+    - <> voodoo
 }
 ->->
 
@@ -620,6 +778,18 @@ Actually, I want to be...
 }
 ->->
 
+= noun_body_part_action
+-> body_part ->
+{shuffle:
+    - <>-eater
+    - <>-junkie
+    - <>-licker
+    - <> lover
+    - <>-sniffer
+    - <>-sucker
+}
+->->
+
 = noun_bovine
 {shuffle:
     - <> cow
@@ -632,15 +802,14 @@ Actually, I want to be...
 }
 ->->
 
-= noun_crazy
-{shuffle:
-    - <> 
-}
+= noun_cum
+<> {~cum|jizz} {~breath|bucket|drinker|dumpster|face|guzzler|jar|junkie|muffin|rag|receptacle|slut|whore}
 ->->
 
 = noun_fat
 {shuffle:
     - <> butterball
+    - <> dumbo
     - <> fat fuck
     - <> fatass
     - <> fattie
@@ -656,23 +825,59 @@ Actually, I want to be...
 }
 ->->
 
-= noun_insult
+= noun_fuck
+<> fuck{~bunny|face|head|hole|meat|muffin|puppet|pole|slave|stick|toy| up}
+->->
+
+= noun_liquid_action
+-> liquid ->
 {shuffle:
-    - <> asswipe 
-    - <> attention whore
-    - <> gremlin
-    - <> pussy
+    - <>-breath
+    - <>-bucket
+    - <>-cup
+    - <>-drinker
+    - <>-dumpster
+    - <>face
+    - <>-junkie
+    - <>-guzzler
+    - <>-licker
+    - <>-lover
+    - <>-jar
+    - <>-rag
+    - <>-receptacle
+    - <>-sucker
 }
 ->->
 
 = noun_little
 {shuffle:
     - <> babydoll
+    - <> baby
     - <> babygirl
+    - <> beloved
+    - <> brat
+    - <> child
     - <> crybaby
+    - <> daughter
+    - <> dollface
     - <> dolly
     - <> girl
+    - <> girlie
     - <> kiddo
+    - <> midget
+    - <> minor
+    - <> peewee
+    - <> poppet
+    - <> precious
+    - <> shortie
+    - <> sweetheart
+    - <> sweetling
+    - <> toddler
+    - <> tot
+    - <> young lady
+    - <> young miss
+    - <> youngling
+    - <> youngster
 }
 ->->
 
@@ -687,6 +892,7 @@ Actually, I want to be...
     - <> doormat
     - <> droid
     - <> drone
+    - <> {~bitch|cunt|edge|slut|whore}bot
     - <> fuckdoll
     - <> fucking machine
     - <> fucktoy
@@ -706,6 +912,7 @@ Actually, I want to be...
 
 = noun_objectified
 {shuffle:
+    - <> attention whore
     - <> baby maker
     - <> clit
     - <> cocksleeve
@@ -730,7 +937,7 @@ Actually, I want to be...
     - <> bull fucker
     - <> cow fucker
     - <> dog fucker
-    - <> edgeslut
+    - <> edge{~bitch|broad|cunt|slut|whore}
     - <> freak
     - <> goat fucker
     - <> horse fucker
@@ -750,13 +957,24 @@ Actually, I want to be...
 
 = noun_pet
 {shuffle:
+    - <> beast
     - <> bitch
+    - <> {~bitch|dog} in heat
+    - <> critter
     - <> dog
+    - <> doggie
+    - <> floof
     - <> kitten
+    - <> lassie
+    - <> mongrel
     - <> pet
     - <> ponygirl
     - <> puppy
+    - <> puppygirl
     - <> slutpuppy
+    - <> tail-wagger
+    - <> wolfie
+    - <> woofer
 }
 ->->
 
@@ -765,135 +983,21 @@ Actually, I want to be...
     - <> call girl
     - <> concubine
     - <> courtesan
+    - <> escort
     - <> floozy
     - <> harlot
-    - <> hoe
+    - <> ho
     - <> hooker
+    - <> hussy
+    - <> mistress
+    - <> sex worker
     - <> skank
+    - <> slut
     - <> strumpet
+    - <> tramp
     - <> trollop
     - <> whore
-}
-->->
-
-= noun_servant
-{shuffle:
-    - <> captive
-    - <> dungeon-dweller
-    - <> follower
-    - <> hireling
-    - <> house slave
-    - <> maid
-    - <> minion
-    - <> peon
-    - <> servant
-    - <> sex slave
-    - <> slave
-    - <> slave girl
-    - <> subordinate
-    - <> thrall
-    - <> underling
-    - <> vassal
-    - <> worker
-}
-->->
-
-= noun_sexual
-{shuffle:
-    - <> bang-{~bitch|broad|slut|whore}
-    - <> {~bitch|dog} in heat
-    - <> cock whore
-    - <> cum twat
-    - <> hellcat
-    - <> hornball
-    - <> hottie
-    - <> nympho
-    - <> tongue fucker
-    - <> tonsil jockey
-}
-->->
-
-= noun_stupid
-{shuffle:
-    - <> airhead
-    - <> dum dum
-    - <> dumbass
-    - <> dummy
-    - <> moron
-    - <> retard
-    - <> tits-for-brains
-}
-->->
-
-= noun_woman
-{shuffle:
-    - <> bitch
-    - <> broad
-    - <> chick
-    - <> cunt
-    - <> gash
-    - <> female
-    - <> hag
-    - <> jezebel
-    - <> she-devil
-    - <> shorty
-    - <> siren
-    - <> slut
-    - <> sorceress
-    - <> succubitch
-    - <> succubus
-    - <> temptress
-    - <> thot
-    - <> vixen
-    - <> wench
-    - <> witch
-}
-->->
-
-= noun_worthless
-{shuffle:
-    - <> boot licker
-    - <> coward
-    - <> cuckquean
-    - <> gutter trash
-    - <> loser
-    - <> peon
-    - <> piece of shit
-    - <> piece of trash
-    - <> reject
-    - <> shit stain
-    - <> waste of space
-    - <> worm
-}
-->->
-
-= adjective_racist
-{shuffle:
-    - <> black
-    - <> brillo-headed
-    - <> broke-ass
-    - <> burnt
-    - <> char-broiled
-    - <> chestnut
-    - <> chicken-licking
-    - <> chocolate
-    - <> colored
-    - <> cripsy
-    - <> ebony
-    - <> ghetto
-    - <> ghetto-ass
-    - <> jive-ass
-    - <> licorice
-    - <> light-skinned
-    - <> {~mulatto|'latto}
-    - <> nappy
-    - <> nappy-ass
-    - <> over-cooked
-    - <> shit-stained
-    - <> sooty
-    - <> thick-lipped
-    - <> uppity
-    - <> voodoo
+    - <> working girl
 }
 ->->
 
@@ -944,13 +1048,110 @@ Actually, I want to be...
 }
 ->->
 
-= noun_fuck
-<> fuck{~bunny|face|head|hole|meat|muffin|puppet|pole|slave|stick|toy| up}
+= noun_servant
+{shuffle:
+    - <> captive
+    - <> dungeon-dweller
+    - <> follower
+    - <> hireling
+    - <> house slave
+    - <> maid
+    - <> minion
+    - <> peon
+    - <> servant
+    - <> sex slave
+    - <> slave
+    - <> slave girl
+    - <> subordinate
+    - <> thrall
+    - <> underling
+    - <> vassal
+    - <> worker
+}
 ->->
 
-= noun_cum
-<> {~cum|jizz} {~breath|bucket|drinker|dumpster|face|guzzler|jar|junkie|muffin|rag|receptacle|slut|whore}
+= noun_sexual
+{shuffle:
+    - <> bang-{~bitch|broad|cunt|slut|whore}
+    - <> {~bitch|dog} in heat
+    - <> cock whore
+    - <> cum twat
+    - <> floozie
+    - <> hellcat
+    - <> hornball
+    - <> hottie
+    - <> mistress
+    - <> nympho
+    - <> tongue fucker
+    - <> tonsil jockey
+}
 ->->
+
+= noun_stupid
+{shuffle:
+    - <> airhead
+    - <> birdbrain
+    - <> dimwit
+    - <> dipshit
+    - <> dum dum
+    - <> dumbass
+    - <> dummy
+    - <> dunce
+    - <> halfwit
+    - <> idiot
+    - <> moron
+    - <> retard
+    - <> simpleton
+    - <> tits-for-brains
+}
+->->
+
+= noun_woman
+{shuffle:
+    - <> bitch
+    - <> broad
+    - <> chick
+    - <> cunt
+    - <> gash
+    - <> female
+    - <> hag
+    - <> jezebel
+    - <> pussy
+    - <> she-devil
+    - <> shorty
+    - <> siren
+    - <> slut
+    - <> sorceress
+    - <> succubitch
+    - <> succubus
+    - <> temptress
+    - <> thot
+    - <> vixen
+    - <> wench
+    - <> witch
+}
+->->
+
+= noun_worthless
+{shuffle:
+    - <> asswipe
+    - <> boot licker
+    - <> coward
+    - <> cuckquean
+    - <> gutter trash
+    - <> loser
+    - <> peon
+    - <> piece of shit
+    - <> piece of trash
+    - <> reject
+    - <> shit stain
+    - <> waste of space
+    - <> worm
+}
+->->
+
+
+// Pieces
 
 = body_part
 {shuffle: 
@@ -970,36 +1171,9 @@ Actually, I want to be...
 }
 ->->
 
-= noun_body_part_action
--> body_part ->
-{shuffle:
-    - <>-eater
-    - <>-junkie
-    - <>-licker
-    - <> lover
-    - <>-sniffer
-    - <>-sucker
-}
-->->
-
-= adjective_body_part_action
--> body_part ->
-{shuffle:
-    - <>-craving
-    - <>-eating
-    - <>-hungry
-    - <>-kissing
-    - <>-licking
-    - <>-loving
-    - <>-obsessed
-    - <>-slurping
-    - <>-sniffing
-    - <>-sucking
-}
-->->
-
 = liquid
-{shuffle: 
+{shuffle:
+    - <> baby batter
     - <> cream
     - <> cum
     - <> grool
@@ -1014,40 +1188,5 @@ Actually, I want to be...
 }
 ->->
 
-= noun_liquid_action
--> liquid ->
-{shuffle:
-    - <>-breath
-    - <>-bucket
-    - <>-cup
-    - <>-drinker
-    - <>-dumpster
-    - <>face
-    - <>-junkie
-    - <>-guzzler
-    - <>-licker
-    - <>-lover
-    - <>-jar
-    - <>-rag
-    - <>-receptacle
-    - <>-sucker
-}
-->->
 
-= adjective_liquid_action
--> liquid ->
-{shuffle:
-    - <>-craving
-    - <>-covered
-    - <>-drenched
-    - <>-drinking
-    - <>-gargling
-    - <>-guzzling
-    - <>-thirsty
-    - <>-licking
-    - <>-loving
-    - <>-obsessed
-    - <>-slupring
-    - <>-sucking
-}
-->->
+
