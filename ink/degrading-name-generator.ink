@@ -89,7 +89,8 @@ Actually, I want to be...
     -   {shuffle:
             - -> adjective_early ->
             - -> adjective_early ->
-            - -> adjective_early ->
+            - -> adjective_fat ->
+            - -> adjective_fat ->
             -
         }
         {shuffle:
@@ -102,7 +103,8 @@ Actually, I want to be...
     -   {shuffle:
             - -> adjective_early ->
             - -> adjective_early ->
-            - -> adjective_early ->
+            - -> adjective_fat ->
+            - -> adjective_fat ->
             -
         }
         -> adjective_bovine ->
