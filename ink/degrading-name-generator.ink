@@ -1,110 +1,87 @@
+VAR result = ""
+
 Today, I want to be...
 
 - (start)
 
+~ result = ""
+
 + [Random]
     ...random, so today my name is:
-    -> name -> again
+    -> name_random -> again
 + [Owned]
     ...owned, so today my name is:
-    -> name_slave -> again
+    -> name_servant -> again
 + [Little]
     ...little, so today my name is:
     -> name_little -> again
 + [Moo]
     ...moo, so today my name is:
-    -> name_cow -> again
+    -> name_bovine -> again
 + [Dumb]
     ...dumb, so today my name is:
-    -> name_dumb -> again
+    -> name_stupid -> again
 + [Mindless]
     ...mindless, so today my name is:
-    -> name_drone -> again
+    -> name_mindless -> again
 + [Fat]
     ...fat, so today my name is:
     -> name_fat -> again
 + [Segregated]
     ...segregated, so today my name is:
-    -> name_black -> again
+    -> name_racist -> again
 
 - (again)
 Actually, I want to be...
 -> start
 
-= name
+= name_random
 <center><h3>
 {shuffle:
-    - -> adjective_early ->
-    - -> adjective_early ->
-    - -> adjective_early ->
-    - -> adjective_early ->
-    - 
-}
+    -   {shuffle:
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - 
+        }
+        -> adjective ->
 
-{shuffle:
-    - -> adjective ->
-    - -> adjective ->
-    - -> adjective ->
-    - -> adjective ->
-    - 
+    -   -> adjective_early ->
+        {shuffle:
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - -> adjective ->
+            - 
+        }
 }
 -> noun ->->
 </h3></center>
 
-= name_black
+= name_bovine
 <center><h3>
 {shuffle:
     -   {shuffle:
-            - -> adjective_early ->
-            - -> adjective_early ->
-            - -> adjective_early ->
-            -
-        }
-        {shuffle:
-            - -> adjective_racist ->
-            - -> adjective_racist ->
-            - -> adjective ->
-            -
-        }
-        -> noun_racist ->
-    -   {shuffle:
-            - -> adjective_early ->
-            - -> adjective_early ->
-            - -> adjective_early ->
-            -
-        }
-        -> adjective_racist ->
-        {shuffle:
-            - -> noun_racist ->
-            - -> noun_racist ->
-            - -> noun ->
-        }
-}
-</h3></center>
-->->
-
-= name_cow
-<center><h3>
-{shuffle:
-    -   {shuffle:
-            - -> adjective_early ->
-            - -> adjective_early ->
             - -> adjective_fat ->
             - -> adjective_fat ->
+            - -> adjective_early ->
+            - -> adjective_early ->
             -
         }
         {shuffle:
             - -> adjective_bovine ->
             - -> adjective_bovine ->
             - -> adjective ->
-            -
+            - -> adjective ->
         }
         -> noun_bovine ->
+
     -   {shuffle:
-            - -> adjective_early ->
-            - -> adjective_early ->
             - -> adjective_fat ->
             - -> adjective_fat ->
+            - -> adjective_early ->
+            - -> adjective_early ->
             -
         }
         -> adjective_bovine ->
@@ -112,71 +89,6 @@ Actually, I want to be...
             - -> noun_bovine ->
             - -> noun_bovine ->
             - -> noun ->
-        }
-}
-</h3></center>
-->->
-
-= name_drone
-<center><h3>
-{shuffle:
-    -   {shuffle:
-            - -> adjective_early ->
-            - -> adjective_early ->
-            - -> adjective_early ->
-            -
-        }
-        {shuffle:
-            - -> adjective_mindless ->
-            - -> adjective_mindless ->
-            - -> adjective ->
-            -
-        }
-        -> noun_mindless ->
-    -   {shuffle:
-            - -> adjective_early ->
-            - -> adjective_early ->
-            - -> adjective_early ->
-            -
-        }
-        -> adjective_mindless ->
-        {shuffle:
-            - -> noun_mindless ->
-            - -> noun_mindless ->
-            - -> noun ->
-        }
-}
-</h3></center>
-->->
-
-= name_dumb
-<center><h3>
-{shuffle:
-    -   {shuffle:
-            - -> adjective_stupid ->
-            - -> adjective_stupid ->
-            - -> adjective_early ->
-            -
-        }
-        {shuffle:
-            - -> adjective ->
-            - -> adjective ->
-            - -> adjective ->
-            - -> adjective ->
-            - 
-        }
-        -> noun_stupid ->
-    -   -> adjective_stupid ->
-        {shuffle:
-            - -> adjective ->
-            - -> adjective ->
-            - -> adjective ->
-            - -> adjective ->
-            - 
-        }
-        {shuffle:
-            - -> noun_stupid ->
-            - -> noun_stupid ->
             - -> noun ->
         }
 }
@@ -188,36 +100,27 @@ Actually, I want to be...
 {shuffle:
     -   {shuffle:
             - -> adjective_fat ->
-            - -> adjective_fat ->
             - -> adjective_early ->
-            -
         }
         {shuffle:
-            - -> adjective ->
-            - -> adjective ->
-            - -> adjective ->
-            - -> adjective ->
             - -> adjective_bovine ->
             - -> adjective_bovine ->
-            - -> adjective_bovine ->
+            - -> adjective ->
+            - -> adjective ->
             - 
         }
         -> noun_fat ->
+
     -   -> adjective_fat ->
         {shuffle:
-            - -> adjective ->
-            - -> adjective ->
-            - -> adjective ->
-            - -> adjective ->
             - -> adjective_bovine ->
             - -> adjective_bovine ->
-            - -> adjective_bovine ->
+            - -> adjective ->
+            - -> adjective ->
             - 
         }
         {shuffle:
             - -> noun_fat ->
-            - -> noun_fat ->
-            - -> noun_bovine ->
             - -> noun_bovine ->
             - -> noun ->
             - -> noun ->
@@ -236,7 +139,6 @@ Actually, I want to be...
             - -> adjective_little ->
             - -> adjective_little ->
             - -> adjective_little ->
-            -
         }
         {shuffle:
             - -> adjective_body_part_action ->
@@ -248,6 +150,7 @@ Actually, I want to be...
             - 
         }
         -> noun_little ->
+
     -   -> adjective_little ->
         {shuffle:
             - -> adjective_body_part_action ->
@@ -281,10 +184,79 @@ Actually, I want to be...
 </h3></center>
 ->->
 
-= name_slave
+= name_mindless
 <center><h3>
 {shuffle:
     -   {shuffle:
+            - -> adjective_stupid ->
+            - -> adjective_stupid ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            -
+        }
+        {shuffle:
+            - -> adjective_mindless ->
+            - -> adjective_mindless ->
+            - -> adjective ->
+            - -> adjective ->
+        }
+        -> noun_mindless ->
+
+    -   {shuffle:
+            - -> adjective_stupid ->
+            - -> adjective_stupid ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            -
+        }
+        -> adjective_mindless ->
+        {shuffle:
+            - -> noun_mindless ->
+            - -> noun_stupid ->
+            - -> noun ->
+            - -> noun ->
+        }
+}
+</h3></center>
+->->
+
+= name_racist
+<center><h3>
+{shuffle:
+    -   {shuffle:
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            -
+        }
+        {shuffle:
+            - -> adjective_racist ->
+            - -> adjective ->
+        }
+        -> noun_racist ->
+
+    -   {shuffle:
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+            -
+        }
+        -> adjective_racist ->
+        {shuffle:
+            - -> noun_racist ->
+            - -> noun ->
+        }
+}
+</h3></center>
+->->
+
+= name_servant
+<center><h3>
+{shuffle:
+    -   {shuffle:
+            - -> adjective_early ->
             - -> adjective_early ->
             - -> adjective_early ->
             - -> adjective_early ->
@@ -292,13 +264,12 @@ Actually, I want to be...
         }
         {shuffle:
             - -> adjective_enslaved ->
-            - -> adjective_enslaved ->
             - -> adjective ->
-            - -> adjective ->
-            -
         }
         -> noun_servant ->
+
     -   {shuffle:
+            - -> adjective_early ->
             - -> adjective_early ->
             - -> adjective_early ->
             - -> adjective_early ->
@@ -307,12 +278,50 @@ Actually, I want to be...
         -> adjective_enslaved ->
         {shuffle:
             - -> noun_servant ->
-            - -> noun_servant ->
             - -> noun ->
         }
 }
 </h3></center>
 ->->
+
+= name_stupid
+<center><h3>
+{shuffle:
+    -   {shuffle:
+            - -> adjective_stupid ->
+            - -> adjective_stupid ->
+            - -> adjective_early ->
+            - -> adjective_early ->
+        }
+        {shuffle:
+            - -> adjective_mindless ->
+            - -> adjective_mindless ->
+            - -> adjective ->
+            - -> adjective ->
+            -
+        }
+        -> noun_stupid ->
+
+    -   -> adjective_stupid ->
+        {shuffle:
+            - -> adjective_mindless ->
+            - -> adjective_mindless ->
+            - -> adjective ->
+            - -> adjective ->
+            - 
+        }
+        {shuffle:
+            - -> noun_stupid ->
+            - -> noun_mindless ->
+            - -> noun ->
+            - -> noun ->
+        }
+}
+</h3></center>
+->->
+
+
+// Collections
 
 = adjective_early
 {shuffle: 
@@ -438,7 +447,7 @@ Actually, I want to be...
     - <> rotund
     - <> rubenesque
     - <> thicc
-    - <> thunder-thighted
+    - <> thunder-thighed
     - <> tubby
     - <> voluptuous
 }
@@ -1090,6 +1099,7 @@ Actually, I want to be...
 = noun_stupid
 {shuffle:
     - <> airhead
+    - <> bimbo
     - <> birdbrain
     - <> dimwit
     - <> dipshit
@@ -1108,6 +1118,7 @@ Actually, I want to be...
 
 = noun_woman
 {shuffle:
+    - <> bimbo
     - <> bitch
     - <> broad
     - <> chick
@@ -1187,6 +1198,9 @@ Actually, I want to be...
     - <> urine
 }
 ->->
+
+
+
 
 
 
