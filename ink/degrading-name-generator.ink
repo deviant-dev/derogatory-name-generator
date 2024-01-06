@@ -835,7 +835,7 @@ Actually, I want to be...
 ->->
 
 = noun_fuck
-<> fuck{~bunny|face|head|hole|meat|muffin|puppet|pole|slave|stick|toy| up}
+<> fuck{~bucket|bunny|face|head|hole|meat|muffin|puppet|pole|slave|stick|toy| up}
 ->->
 
 = noun_liquid_action
@@ -1085,6 +1085,7 @@ Actually, I want to be...
     - <> {~bitch|dog} in heat
     - <> cock whore
     - <> cum twat
+    - <> fellatrix
     - <> floozie
     - <> hellcat
     - <> hornball
