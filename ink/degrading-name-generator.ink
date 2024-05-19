@@ -867,6 +867,8 @@ Actually, I want to be...
     - <> brat
     - <> child
     - <> crybaby
+    - <> dame
+    - <> damsel
     - <> daughter
     - <> dollface
     - <> dolly
@@ -878,6 +880,7 @@ Actually, I want to be...
     - <> peewee
     - <> poppet
     - <> precious
+    - <> princess
     - <> shortie
     - <> sweetheart
     - <> sweetling
@@ -1032,7 +1035,7 @@ Actually, I want to be...
     - <> half-human
     - <> heathen
     - <> hood rat
-    - <> jiggabo
+    - <> jigaboo
     - <> jungle bunny
     - <> mixed blood
     - <> mongrel
