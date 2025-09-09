@@ -1,6 +1,10 @@
 VAR result = ""
 
-Today, I want to be...
+Today my name is...
+-> name_random ->
+
+- (again)
+Actually, I want to be...
 
 - (start)
 
@@ -31,9 +35,6 @@ Today, I want to be...
     ...segregated, so today my name is:
     -> name_racist -> again
 
-- (again)
-Actually, I want to be...
--> start
 
 = name_random
 <center><h3>
